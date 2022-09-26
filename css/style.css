@@ -41,8 +41,6 @@ ul {
     justify-content: flex-end;
 }
 
-
-
 section {
     padding: 40px 0;
 }
@@ -62,9 +60,6 @@ footer nav {
 
 }
 
-
-
-
 .container {
     width: 920px;
     margin: 0 auto;
@@ -80,11 +75,18 @@ footer nav {
 
 .row {
     display: flex;
+    flex-grow: 1;
 
+}
+
+.col-header {
+    border-right: 1px dashed black;
+    flex-grow: 1;
 }
 
 .col {
     padding: 140px;
+    /*andrò a levarlo quando inserirò gli elementi*/
     border: 1px dashed black;
     flex-grow: 1;
 }
