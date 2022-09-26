@@ -96,10 +96,19 @@ footer nav {
 
 }
 
+.col-footer {
+    padding: 20px;
+
+}
+
 footer .border-container {
     border: 1px dashed black;
 }
 
+.border-white {
+    border: 1px dashed white;
+    background-color: rgb(0 183 173);
+}
 
 .background-blue {
     background-color: rgb(21 0 146);
@@ -120,4 +129,8 @@ footer .border-container {
 .background-green {
     background-color: rgb(0 147 9);
     padding: 240px;
+}
+
+.background-dark-pink {
+    background-color: rgb(255 115 119);
 }
